@@ -19,8 +19,8 @@ Esta aplicación es un servicio ETL (Extract, Transform, Load) que permite extra
 
 1. Clona el repositorio:
     ```sh
-    git clone <URL_DEL_REPOSITORIO>
-    cd <NOMBRE_DEL_REPOSITORIO>
+    git clone https://github.com/Edimega/ETLExtract
+    cd ETLExtract
     ```
 
 2. Construye y levanta los contenedores con Docker Compose:
@@ -43,7 +43,7 @@ Esta aplicación es un servicio ETL (Extract, Transform, Load) que permite extra
 curl -X POST "http://localhost:8000/extraer-texto-pdf/" -F "file=@ruta/al/archivo.pdf"
 ```
 
-### 2. Leer Hoja de Cálculo (Excel, CSV)
+### 2. Leer Hoja de Cálculo (Excel, ods, CSV)
 **Endpoint:** `/leer-hoja-calculo/`  
 **Método:** `POST`  
 **Tipo de Contenido:** `multipart/form-data`  
