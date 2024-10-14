@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+PyPDF2
+python-multipart
+openpyxl
+pyexcel-ods
+pyexcel-xls
+xlrd
